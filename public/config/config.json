@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x14F0f1191d4D2a7D7c7fB4780EeFA3F3A91BF93E",
+  "SCAN_LINK": "https://polygonscan.com/address/0x14F0f1191d4D2a7D7c7fB4780EeFA3F3A91BF93E",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Bored fancy cat's",
+  "SYMBOL": "BFC",
+  "MAX_SUPPLY": 4417,
+  "WEI_COST": 4000000000000000000,
+  "DISPLAY_COST": 4,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/bored-fancy-cats",
+  "SHOW_BACKGROUND": true
+}
