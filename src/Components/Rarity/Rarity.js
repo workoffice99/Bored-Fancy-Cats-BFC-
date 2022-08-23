@@ -40,7 +40,7 @@ export default class RaritySection extends Component {
       ],
     };
     return (
-      <div>
+      <div className="container slider-container">
         <div className="d-flex justify-content-center">
           <p className="fs-1 text-white">Rarity</p>
         </div>

@@ -6,6 +6,8 @@ import Partners from "./Components/Partner/Partner";
 import AboutNft from "./Components/AboutNft/AboutNft";
 import Rarity from "./Components/Rarity/Rarity";
 import RoadMap from "./Components/RoadMap/RoadMap";
+import Faq from "./Components/Faq/Faq";
+import Team from "./Components/Team/Team";
 import "./App.css";
 
 export default function App() {
@@ -28,6 +30,12 @@ export default function App() {
       </div>
       <div class="mt-5 ">
         <RoadMap />
+      </div>
+      <div class="mt-5 ">
+        <Team />
+      </div>
+      <div class="mt-5 ">
+        <Faq />
       </div>
     </div>
   );

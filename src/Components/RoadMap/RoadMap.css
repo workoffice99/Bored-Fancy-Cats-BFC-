@@ -4,3 +4,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.ul {
+  list-style: none;
+}
+
+ul li:before {
+  color: white;
+  content: url(./../../Assets/tic.png);
+  font-weight: bold;
+}
+
+.side-list {
+  margin-left: 8rem;
+}
