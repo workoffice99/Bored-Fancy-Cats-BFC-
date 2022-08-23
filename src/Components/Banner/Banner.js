@@ -10,13 +10,12 @@ export default function Banner() {
     <div className="container">
       <div className="row">
         <Fade left>
-          <div className="col-7 mt-5 text-light">
+          <div className="col-7 mt-5 text-light p-5">
             <div className="">
               <p className=" fs-5 fw-bold ">WELCOME TO THE FANCY KITTEIES!</p>
 
               <p className="fs-1 mt-5" Style="color:#adefd1">
-                Fancy Kitties the
-                <br /> Kingdoms
+                Fancy Kitties the Kingdoms
               </p>
               <p className="fs-5 mt-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -31,7 +30,7 @@ export default function Banner() {
               >
                 Get Started
               </button>
-              <button
+              {/* <button
                 class="btn btn-outline-light text-light"
                 type="button"
                 Style="width:48%;background-color:transparent;"
@@ -43,7 +42,7 @@ export default function Banner() {
                     <img src={Play} width="auto" height="auto" />
                   </div>
                 </div>
-              </button>
+              </button> */}
             </div>
           </div>
         </Fade>
