@@ -8,6 +8,8 @@ import Rarity from "./Components/Rarity/Rarity";
 import RoadMap from "./Components/RoadMap/RoadMap";
 import Faq from "./Components/Faq/Faq";
 import Team from "./Components/Team/Team";
+import ContactUs from "./Components/ContactUs/ContactUs";
+import AboveFooter from "./Components/AboveFooter/AboveFooter";
 import "./App.css";
 
 export default function App() {
@@ -16,15 +18,19 @@ export default function App() {
       <div>
         <Nav />
       </div>
+      <hr />
       <div class="mt-5">
         <Banner />
       </div>
+      <hr />
       <div class="mt-5">
         <Button />
       </div>
+      <hr />
       <div class="mt-5 ">
         <AboutNft />
       </div>
+      <hr />
       <div class="mt-5 ">
         <Rarity />
       </div>
@@ -36,6 +42,12 @@ export default function App() {
       </div>
       <div class="mt-5 ">
         <Faq />
+      </div>
+      <div class="mt-5 ">
+        <ContactUs />
+      </div>
+      <div class="mt-5 ">
+        <AboveFooter />
       </div>
     </div>
   );

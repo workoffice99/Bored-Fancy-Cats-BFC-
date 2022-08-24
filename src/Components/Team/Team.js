@@ -16,13 +16,16 @@ export default function Team() {
             LOVE TO HEAR FROM YOU
           </p>
         </div>
-        <div className="col-12  d-flex justify-content-center mt-2">
+        <div
+          className="col-12  d-flex justify-content-center mt-2"
+          Style="color:#ADEFD1;"
+        >
           <p class="fs-1">TEAM</p>
         </div>
       </div>
       <div className="row">
-        <div className="col-12 pt-5  d-flex  justify-content-around">
-          <div className="col-6 team-card pt-5">
+        <div className="col-12 pt-5  d-flex  justify-content-center">
+          <div className="col-6 team-card pt-5 m-4">
             <div class="d-flex justify-content-center">
               <img src={TeamOne} width="220px" height="auto" />
             </div>
@@ -47,7 +50,7 @@ export default function Team() {
               </div>
             </div>
           </div>
-          <div className="col-6 team-card pt-5">
+          <div className="col-6 team-card pt-5 m-4 ">
             <div class="d-flex justify-content-center">
               <img src={TeamTwo} width="220px" height="auto" />
             </div>

@@ -9,10 +9,10 @@ export default function AboutNft() {
           <div>
             <p className="fs-4 ">About Our Project</p>
           </div>
-          <div className="fs-1 mt-2">
+          <div className="fs-1 mt-2 " Style="color:#ADEFD1;">
             <p>KITTEIES VERSE</p>
           </div>
-          <div className="fs-6 mt-3">
+          <div className="fs-6 mt-3 pr-4 pb-4 pt-4">
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -24,7 +24,13 @@ export default function AboutNft() {
               <br /> It was popularised in the 1960s with the release of
               Letraset sheets containing Lorem Ipsum passages, and more recently
               with desktop publishing software like Aldus PageMaker including
-              versions of Lorem Ipsum.
+              versions of Lorem Ipsum. It was popularised in the 1960s with the
+              release of Letraset sheets containing Lorem Ipsum passages, and
+              more recently with desktop publishing software like Aldus
+              PageMaker including versions of Lorem Ipsum. It was popularised in
+              the 1960s with the release of Letraset sheets containing Lorem
+              Ipsum passages, and more recently with desktop publishing software
+              like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
           </div>
         </div>

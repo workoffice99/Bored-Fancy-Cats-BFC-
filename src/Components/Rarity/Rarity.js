@@ -41,8 +41,10 @@ export default class RaritySection extends Component {
     };
     return (
       <div className="container slider-container">
-        <div className="d-flex justify-content-center">
-          <p className="fs-1 text-white">Rarity</p>
+        <div className="d-flex justify-content-center" Style="color:#ADEFD1;">
+          <p className="fs-1 " Style="color:#ADEFD1;">
+            Rarity
+          </p>
         </div>
         <Slider {...settings}>
           {data.map((data) => {

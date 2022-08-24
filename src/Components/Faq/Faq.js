@@ -74,7 +74,7 @@ export default function FAQ() {
           </div>
           <div
             class="col-12 col-lg-12  d-flex justify-content-center"
-            Style="font-size: 45px;padding-left:0; "
+            Style="font-size: 45px;padding-left:0; color:#ADEFD1;"
           >
             <p>FAQ</p>
           </div>

@@ -1,0 +1,14 @@
+.ContactUs {
+  height: auto;
+  background-image: url(../../Assets/Rectangle\ 39.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circle {
+  background-color: #8ae4bc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  /* width and height can be anything, as long as they're equal */
+}
