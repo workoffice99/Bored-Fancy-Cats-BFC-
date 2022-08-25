@@ -1,5 +1,7 @@
 .road-map {
   height: auto;
+  width: 100%;
+
   background-image: url(./../../Assets/Rectangle42.png);
   background-repeat: no-repeat;
   background-size: cover;

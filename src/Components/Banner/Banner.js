@@ -15,7 +15,7 @@ export default function Banner() {
     <div className="container">
       <div className="row">
         <Fade left>
-          <div className="col-7 mt-5 text-light p-5">
+          <div className="col-sm-12 col-lg-7 mt-5 text-light p-5">
             <div className="">
               <p className=" fs-5 fw-bold ">WELCOME TO THE FANCY KITTEIES!</p>
 

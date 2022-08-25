@@ -37,20 +37,22 @@ export default function AboveFooter() {
       <div className="row">
         <hr class="horizontal-line mt-3" />
         <div className="col-12 d-flex justify-content-between text-white mb-2 mt-2">
-          <div>
+          <div className="  col-12 col-md-6 ">
             <div className="">
               Copyright © 2022 Goofy Giraffes | All Rights Reserved
             </div>
           </div>
-          <div class="d-flex gap-3">
-            <div className="column has-text-right has-text-centered-mobile is-hidden-mobile is-hidden-mobile-tablet-only link is-hidden-tablet-only ">
-              Privacy Policy
-            </div>
-            <div className="column has-text-right has-text-centered-mobile is-hidden-mobile is-hidden-tablet-only link footer-nav-below">
-              Terms of Use
-            </div>
-            <div className="column has-text-right has-text-centered-mobile is-hidden-mobile is-hidden-tablet-only link footer-nav-below">
-              Cookie Policy
+          <div class="col-12 col-md-6  ">
+            <div className="d-flex justify-content-end gap-3">
+              <div className="column has-text-right has-text-centered-mobile is-hidden-mobile is-hidden-mobile-tablet-only link is-hidden-tablet-only ">
+                Privacy Policy
+              </div>
+              <div className="column has-text-right has-text-centered-mobile is-hidden-mobile is-hidden-tablet-only link footer-nav-below">
+                Terms of Use
+              </div>
+              <div className="column has-text-right has-text-centered-mobile is-hidden-mobile is-hidden-tablet-only link footer-nav-below">
+                Cookie Policy
+              </div>
             </div>
           </div>
         </div>

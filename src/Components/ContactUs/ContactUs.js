@@ -8,7 +8,7 @@ export default function ContactUs() {
   return (
     <div className="container ContactUs p-5">
       <div className="row">
-        <div className="col-7 text-white">
+        <div className="col-12 col-md-6 text-white">
           <div className="fs-4">
             <p>Do You have something for us?</p>
           </div>
@@ -40,7 +40,7 @@ export default function ContactUs() {
             </div>
           </div>
         </div>
-        <div className="col-5 ">
+        <div className="col-12 col-md-5 ">
           <div class="input-group  d-flex justify-content-center my-5">
             <input
               type="text"

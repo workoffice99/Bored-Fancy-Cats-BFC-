@@ -10,7 +10,7 @@ export default function RoadMap() {
 
       <div className="row">
         <div className="road-map">
-          <div className="col-12 col-sm-12 p-5 mt-5">
+          <div className="col-12  p-5 ">
             <ul>
               <li className="">25% SOLD Early holders airdrop</li>
               <li className="pt-5  side-list">
