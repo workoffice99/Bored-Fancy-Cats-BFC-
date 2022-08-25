@@ -13,13 +13,13 @@ export const StyledButton = styled.button`
   padding: 10px;
   border-radius: 50px;
   border: none;
-  background-color: var(--secondary);
+  background-color: #adefd1;
   padding: 10px;
   font-weight: bold;
-  color: var(--secondary-text);
-  width: 100px;
+  color: black;
+  width: 200px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
@@ -203,19 +203,8 @@ function Button() {
             <s.SpacerSmall />
             <ResponsiveWrapper>
               <s.SpacerLarge />
-              <s.Container
-                flex={2}
-                jc={"center"}
-                ai={"center"}
-                style={{
-                  backgroundColor: "transparent",
-                  padding: 24,
-                  borderRadius: 24,
-                  border: "4px dashed var(--secondary)",
-                  boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
-                }}
-              >
-                <s.TextTitle
+              <s.Container>
+                {/* <s.TextTitle
                   style={{
                     textAlign: "center",
                     fontSize: 50,
@@ -224,8 +213,9 @@ function Button() {
                   }}
                 >
                   {data.totalSupply} / {CONFIG.MAX_SUPPLY}
-                </s.TextTitle>
-                <s.TextDescription
+                // </s.TextTitle> */}{" "}
+                {/* total supply */}
+                {/* <s.TextDescription
                   style={{
                     textAlign: "center",
                     color: "var(--primary-text)",
@@ -234,7 +224,7 @@ function Button() {
                   <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                     {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
                   </StyledLink>
-                </s.TextDescription>
+                </s.TextDescription> */}
                 <s.SpacerSmall />
                 {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
                   <>
@@ -264,7 +254,7 @@ function Button() {
                   </>
                 ) : (
                   <>
-                    <s.TextTitle
+                    {/* <s.TextTitle
                       style={{
                         textAlign: "center",
                         color: "var(--accent-text)",
@@ -272,8 +262,8 @@ function Button() {
                     >
                       1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                       {CONFIG.NETWORK.SYMBOL}.
-                    </s.TextTitle>
-                    <s.SpacerXSmall />
+                    </s.TextTitle> */}
+                    {/* <s.SpacerXSmall />
                     <s.TextDescription
                       style={{
                         textAlign: "center",
@@ -282,11 +272,11 @@ function Button() {
                     >
                       Excluding gas fees.
                     </s.TextDescription>
-                    <s.SpacerSmall />
+                    <s.SpacerSmall /> */}
                     {blockchain.account === "" ||
                     blockchain.smartContract === null ? (
                       <s.Container ai={"center"} jc={"center"}>
-                        <s.TextDescription
+                        {/* <s.TextDescription
                           style={{
                             textAlign: "center",
                             color: "var(--accent-text)",
@@ -294,7 +284,7 @@ function Button() {
                         >
                           Connect to the {CONFIG.NETWORK.NAME} network
                         </s.TextDescription>
-                        <s.SpacerSmall />
+                        <s.SpacerSmall /> */}
                         <StyledButton
                           onClick={(e) => {
                             e.preventDefault();
@@ -378,14 +368,6 @@ function Button() {
                   </>
                 )}
                 <s.SpacerMedium />
-              </s.Container>
-              <s.SpacerLarge />
-              <s.Container flex={1} jc={"center"} ai={"center"}>
-                <StyledImg
-                  alt={"example"}
-                  src={"/config/images/example.gif"}
-                  style={{ transform: "scaleX(-1)" }}
-                />
               </s.Container>
             </ResponsiveWrapper>
             <s.SpacerMedium />

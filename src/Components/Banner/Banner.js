@@ -3,6 +3,7 @@ import BannerPic from "../../Assets/banner-pic.png";
 import Fade from "react-reveal/Fade";
 import Button from "react-bootstrap/Button";
 import Play from "../../Assets/play.png";
+import NftButton from "../../Button";
 import "./Banner.css";
 
 export default function Banner() {
@@ -23,13 +24,7 @@ export default function Banner() {
               </p>
             </div>
             <div className="d-flex justify-content-between mt-5">
-              <button
-                class="btn btn-primary"
-                type="button"
-                Style="width:50%;background-color:#adefd1;color:black;"
-              >
-                Get Started
-              </button>
+              <NftButton />
               {/* <button
                 class="btn btn-outline-light text-light"
                 type="button"

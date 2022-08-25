@@ -23,9 +23,7 @@ export default function App() {
         <Banner />
       </div>
       <hr />
-      <div class="mt-5">
-        <Button />
-      </div>
+
       <hr />
       <div class="mt-5 ">
         <AboutNft />
