@@ -1,0 +1,16 @@
+.btn-nav {
+  color: #000000;
+  background-color: #adefd1;
+  outline: none;
+  height: 40px !important;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.nav-link {
+  padding-right: 40px;
+}
+
+.bg-dark {
+  background-color: #00203f !important;
+}
