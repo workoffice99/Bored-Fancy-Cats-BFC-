@@ -10,14 +10,13 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
-  padding: 10px;
-  border-radius: 50px;
   border: none;
   background-color: #adefd1;
-  padding: 10px;
+
   font-weight: bold;
   color: black;
-  width: 200px;
+  width: 35rem;
+  height: 50px;
   cursor: pointer;
 
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
@@ -195,7 +194,7 @@ function Button() {
   }, [blockchain.account]);
 
   return (
-    <div className="contaniner m-5  p-3">
+    <div className="contaniner">
       <div>
         <s.Screen>
           <s.Container>
@@ -275,7 +274,7 @@ function Button() {
                     <s.SpacerSmall /> */}
                     {blockchain.account === "" ||
                     blockchain.smartContract === null ? (
-                      <s.Container ai={"center"} jc={"center"}>
+                      <s.Container>
                         {/* <s.TextDescription
                           style={{
                             textAlign: "center",
@@ -319,7 +318,7 @@ function Button() {
                           {feedback}
                         </s.TextDescription>
                         <s.SpacerMedium />
-                        <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                        <s.Container>
                           <StyledRoundButton
                             style={{ lineHeight: 0.4 }}
                             disabled={claimingNft ? 1 : 0}
@@ -351,7 +350,7 @@ function Button() {
                           </StyledRoundButton>
                         </s.Container>
                         <s.SpacerSmall />
-                        <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                        <s.Container>
                           <StyledButton
                             disabled={claimingNft ? 1 : 0}
                             onClick={(e) => {

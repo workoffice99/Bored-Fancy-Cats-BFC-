@@ -1,12 +1,16 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
 import BannerPic from "../../Assets/banner-pic.png";
 import Fade from "react-reveal/Fade";
 import Button from "react-bootstrap/Button";
 import Play from "../../Assets/play.png";
+
 import NftButton from "../../Button";
 import "./Banner.css";
 
 export default function Banner() {
+  const data = useSelector((state) => state.data);
+  console.log(data, "data");
   return (
     <div className="container">
       <div className="row">
@@ -23,7 +27,11 @@ export default function Banner() {
                 pretium venenatis fringilla. Donec quis lectus auctor.
               </p>
             </div>
-            <div className="d-flex justify-content-between mt-5">
+            <div className="fs-1 text-center  mt-5" Style="color:#adefd1">
+              {" "}
+              {data.totalSupply}/4177
+            </div>
+            <div className="d-flex justify-content-center mt-5 ml-2">
               <NftButton />
               {/* <button
                 class="btn btn-outline-light text-light"

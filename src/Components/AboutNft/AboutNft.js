@@ -10,27 +10,23 @@ export default function AboutNft() {
             <p className="fs-4 ">About Our Project</p>
           </div>
           <div className="fs-1 mt-2 " Style="color:#ADEFD1;">
-            <p>KITTEIES VERSE</p>
+            <p>Bored Fancy Cats</p>
           </div>
           <div className="fs-6 mt-3 pr-4 pb-4 pt-4">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+              Bored Fancy Cat's is an NFT limited edition collection of 4417
+              Cat's characters created from Pop elements in the mix with unique
+              Holographic background with Pop style and stored as ERC-721 tokens
+              on the Polygon blockchain.
               <br />
-              <br /> It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently
-              with desktop publishing software like Aldus PageMaker including
-              versions of Lorem Ipsum. It was popularised in the 1960s with the
-              release of Letraset sheets containing Lorem Ipsum passages, and
-              more recently with desktop publishing software like Aldus
-              PageMaker including versions of Lorem Ipsum. It was popularised in
-              the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
+              <br /> Through the Bored Fancy Cat's initiative, we hope to help
+              other artists bring their art to the world through the blockchain
+              path.Part of the funds collected from the sale of the first
+              collection will be allocated to sponsoring upcoming new artists
+              who stand out with their talent but can't afford to launch a
+              collection due to the costs involved.The artists will be
+              pre-selected with the help from the Bored Fancy Cat's NFT holders
+              and the Bored Fancy Cat's team.
             </p>
           </div>
         </div>
