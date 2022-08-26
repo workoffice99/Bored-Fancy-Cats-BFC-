@@ -17,14 +17,13 @@ export default function Banner() {
         <Fade left>
           <div className="col-sm-12 col-lg-7 mt-5 text-light p-5">
             <div className="">
-              <p className=" fs-5 fw-bold ">WELCOME TO THE FANCY KITTEIES!</p>
+              <p className=" fs-5 fw-bold ">WELCOME TO THE Bored Fancy Cats!</p>
 
               <p className="fs-1 mt-5" Style="color:#adefd1">
-                Fancy Kitties the Kingdoms
+                Fancy Cats the Kingdoms
               </p>
               <p className="fs-5 mt-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                pretium venenatis fringilla. Donec quis lectus auctor.
+                Bored Fancy Cat's is an NFT limited edition collection of 4417 Cat's characters created from Pop elements in the mix with unique Holographic background with Pop style and stored as ERC-721 tokens on the Polygon blockchain.
               </p>
             </div>
             <div className="fs-1 text-center  mt-5" Style="color:#adefd1">
