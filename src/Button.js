@@ -317,36 +317,44 @@ function Button() {
                           {feedback}
                         </s.TextDescription>
                         <s.SpacerMedium />
-                        <s.Container>
-                          <StyledRoundButton
-                            style={{ lineHeight: 0.4 }}
-                            disabled={claimingNft ? 1 : 0}
-                            onClick={(e) => {
-                              e.preventDefault();
-                              decrementMintAmount();
-                            }}
-                          >
-                            -
-                          </StyledRoundButton>
-                          <s.SpacerMedium />
-                          <s.TextDescription
-                            style={{
-                              textAlign: "center",
-                              color: "var(--accent-text)",
-                            }}
-                          >
-                            {mintAmount}
-                          </s.TextDescription>
-                          <s.SpacerMedium />
-                          <StyledRoundButton
-                            disabled={claimingNft ? 1 : 0}
-                            onClick={(e) => {
-                              e.preventDefault();
-                              incrementMintAmount();
-                            }}
-                          >
-                            +
-                          </StyledRoundButton>
+                        <s.Container flex={1}>
+                          <div className="d-flex">
+                            <div>
+                              <StyledRoundButton
+                                style={{ lineHeight: 0.4 }}
+                                disabled={claimingNft ? 1 : 0}
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  decrementMintAmount();
+                                }}
+                              >
+                                -
+                              </StyledRoundButton>
+                            </div>
+                            <s.SpacerMedium />
+                            <div>
+                              <s.TextDescription
+                                style={{
+                                  textAlign: "center",
+                                  color: "var(--accent-text)",
+                                }}
+                              >
+                                {mintAmount}
+                              </s.TextDescription>
+                            </div>
+                            <s.SpacerMedium />
+                            <div>
+                              <StyledRoundButton
+                                disabled={claimingNft ? 1 : 0}
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  incrementMintAmount();
+                                }}
+                              >
+                                +
+                              </StyledRoundButton>
+                            </div>
+                          </div>
                         </s.Container>
                         <s.SpacerSmall />
                         <s.Container>

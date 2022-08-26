@@ -13,7 +13,7 @@
 
 ul li:before {
   color: white;
-  content: url(./../../Assets/tic.png);
+
   font-weight: bold;
 }
 

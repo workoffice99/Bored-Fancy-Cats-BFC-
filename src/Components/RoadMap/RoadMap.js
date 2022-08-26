@@ -1,5 +1,6 @@
 import React from "react";
 import "./RoadMap.css";
+import Tic from "./../../Assets/tic.png";
 
 export default function RoadMap() {
   return (
@@ -12,29 +13,67 @@ export default function RoadMap() {
         <div className="road-map">
           <div className="col-12  p-5 ">
             <ul>
-              <li className="">25% SOLD Early holders airdrop</li>
-              <li className="pt-5  side-list">
-                As a gesture of appreciation for your continued support we will
-                airdrop 15 unique NFTs done by BFC as a thanks for your
-                continued support.
+              <li className=" d-flex gap-2">
+                <div>
+                  <img src={Tic} />
+                </div>
+                <div>25% SOLD Early holders airdrop</div>
               </li>
-              <li className="pt-5">50% SOLD 100 signed prints giveaway</li>
-              <li className="pt-5  side-list">
-                100 Bored Fancy Cats holders will win high-quality print of
-                their NFT.
+              <li className="pt-5  side-list d-flex gap-2">
+                <div>
+                  <img src={Tic} />
+                </div>
+                <div>
+                  As a gesture of appreciation for your continued support we
+                  will airdrop 15 unique NFTs done by BFC as a thanks for your
+                  continued support.
+                </div>
               </li>
-              <li className="pt-5">75% SOLD Bored Fancy Cats Initiative*</li>
-              <li className="pt-5  side-list">
-                We will implement the Bored Fancy Cats Initiative helping other
-                Artist launch into the NFT space.
+              <li className="pt-5 d-flex gap-2">
+                <div>
+                  <img src={Tic} />
+                </div>
+                <div>50% SOLD 100 signed prints giveaway</div>
               </li>
-              <li className="pt-5">
-                100% SOLD Bored Fancy Cats Double Giveback
+              <li className="pt-5  side-list d-flex gap-2">
+                <div>
+                  <img src={Tic} />
+                </div>
+                <div>
+                  100 Bored Fancy Cats holders will win high-quality print of
+                  their NFT.
+                </div>
               </li>
-              <li className="pt-5  side-list">
-                We will start the full Bored Fancy Cats Double Giveback run
-                using 30% of royalties to buy other NFTs with upcomin Artist
-                focused presence to reward our holders!
+              <li className="pt-5 d-flex gap-2">
+                <div>
+                  <img src={Tic} />
+                </div>
+                <div>75% SOLD Bored Fancy Cats Initiative*</div>
+              </li>
+              <li className="pt-5  side-list d-flex gap-2">
+                <div>
+                  <img src={Tic} />
+                </div>
+                <div>
+                  We will implement the Bored Fancy Cats Initiative helping
+                  other Artist launch into the NFT space.
+                </div>
+              </li>
+              <li className="pt-5 d-flex gap-2">
+                <div>
+                  <img src={Tic} />
+                </div>
+                <div>100% SOLD Bored Fancy Cats Double Giveback</div>
+              </li>
+              <li className="pt-5  side-list d-flex gap-2">
+                <div>
+                  <img src={Tic} />
+                </div>
+                <div>
+                  We will start the full Bored Fancy Cats Double Giveback run
+                  using 30% of royalties to buy other NFTs with upcomin Artist
+                  focused presence to reward our holders!
+                </div>
               </li>
             </ul>
           </div>
