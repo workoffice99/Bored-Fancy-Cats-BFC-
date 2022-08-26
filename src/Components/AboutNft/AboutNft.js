@@ -17,7 +17,7 @@ export default function AboutNft() {
               Bored Fancy Cat's is an NFT limited edition collection of 4417
               Cat's characters created from Pop elements in the mix with unique
               Holographic background with Pop style and stored as ERC-721 tokens
-              on the Polygon blockchain.
+              on the Polygon blockchain....
               <br />
               <br /> Through the Bored Fancy Cat's initiative, we hope to help
               other artists bring their art to the world through the blockchain

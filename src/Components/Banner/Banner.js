@@ -23,7 +23,10 @@ export default function Banner() {
                 Fancy Cats the Kingdoms
               </p>
               <p className="fs-5 mt-5">
-                Bored Fancy Cat's is an NFT limited edition collection of 4417 Cat's characters created from Pop elements in the mix with unique Holographic background with Pop style and stored as ERC-721 tokens on the Polygon blockchain.
+                Bored Fancy Cat's is an NFT limited edition collection of 4417
+                Cat's characters created from Pop elements in the mix with
+                unique Holographic background with Pop style and stored as
+                ERC-721 tokens on the Polygon blockchain.
               </p>
             </div>
             <div className="fs-1 text-center  mt-5" Style="color:#adefd1">
