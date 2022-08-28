@@ -30,8 +30,8 @@ export default function AboutNft() {
             </p>
           </div>
         </div>
-        <div className="col-12 col-md-6  d-flex justify-content-end">
-          <img src={Pic} height="auto" width="450px" />
+        <div className="col-12 col-md-6  d-flex justify-content-center">
+          <img src={Pic} height="400px" width="auto" />
         </div>
       </div>
     </div>

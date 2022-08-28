@@ -14,8 +14,19 @@ export default function AboveFooter() {
         </div>
         <div className="text-center fs-7 text-white mt-4">
           <p>
-            Bored Fancy Cat's is a digital creatives platform that empowers to Blockchain. Our goal is to create a safe environment for creatives and NFT investors to grow and advance their NFT careers in and beyond.
+            Bored Fancy Cat's is a digital creatives platform that empowers to
+            Blockchain. Our goal is to create a safe environment for creatives
+            and NFT investors to grow and advance their NFT careers in and
+            beyond.
           </p>
+        </div>
+        <div className="text-center fs-7 text-white mt-4">
+          <a
+            href="https://polygonscan.com/address/0x14F0f1191d4D2a7D7c7fB4780EeFA3F3A91BF93E"
+            className=""
+          >
+            0x14F0f1191d4D2a7D7c7fB4780EeFA3F3A91BF93E
+          </a>
         </div>
         <div className="text-center d-flex justify-content-center gap-3 mt-4">
           <div>
