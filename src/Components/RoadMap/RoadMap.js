@@ -13,13 +13,15 @@ export default function RoadMap() {
         <div className="road-map">
           <div className="col-12  p-5 ">
             <ul>
-              <li className=" d-flex gap-2">
+              <li className=" d-flex gap-3 tw-bold ">
                 <div>
                   <img src={Tic} />
                 </div>
-                <div>25% SOLD Early holders airdrop</div>
+                <div>
+                  <span className="fs-4">25% SOLD</span> Early holders airdrop
+                </div>
               </li>
-              <li className="pt-5  side-list d-flex gap-2">
+              <li className="pt-5  side-list d-flex gap-3 ">
                 <div>
                   <img src={Tic} />
                 </div>
@@ -29,13 +31,16 @@ export default function RoadMap() {
                   continued support.
                 </div>
               </li>
-              <li className="pt-5 d-flex gap-2">
+              <li className="pt-5 d-flex gap-3 tw-bold ">
                 <div>
                   <img src={Tic} />
                 </div>
-                <div>50% SOLD 100 signed prints giveaway</div>
+                <div>
+                  <span className="fs-4">50% SOLD</span> 100 signed prints
+                  giveaway
+                </div>
               </li>
-              <li className="pt-5  side-list d-flex gap-2">
+              <li className="pt-5  side-list d-flex gap-3 ">
                 <div>
                   <img src={Tic} />
                 </div>
@@ -44,13 +49,16 @@ export default function RoadMap() {
                   their NFT.
                 </div>
               </li>
-              <li className="pt-5 d-flex gap-2">
+              <li className="pt-5 d-flex gap-3 tw-bold">
                 <div>
                   <img src={Tic} />
                 </div>
-                <div>75% SOLD Bored Fancy Cats Initiative*</div>
+                <div>
+                  <span className="fs-4">75% SOLD</span> Bored Fancy Cats
+                  Initiative
+                </div>
               </li>
-              <li className="pt-5  side-list d-flex gap-2">
+              <li className="pt-5  side-list d-flex gap-3 ">
                 <div>
                   <img src={Tic} />
                 </div>
@@ -59,13 +67,16 @@ export default function RoadMap() {
                   other Artist launch into the NFT space.
                 </div>
               </li>
-              <li className="pt-5 d-flex gap-2">
+              <li className="pt-5 d-flex gap-3  tw-bold">
                 <div>
                   <img src={Tic} />
                 </div>
-                <div>100% SOLD Bored Fancy Cats Double Giveback</div>
+                <div>
+                  <span className="fs-4">100% SOLD</span> Bored Fancy Cats
+                  Double Giveback{" "}
+                </div>
               </li>
-              <li className="pt-5  side-list d-flex gap-2">
+              <li className="pt-5  side-list d-flex gap-3 ">
                 <div>
                   <img src={Tic} />
                 </div>

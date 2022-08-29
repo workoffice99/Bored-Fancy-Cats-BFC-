@@ -29,13 +29,16 @@ export default function Banner() {
                 ERC-721 tokens on the Polygon blockchain.
               </p>
             </div>
-            <div className="fs-1 text-center  mt-5" Style="color:#adefd1">
-              {" "}
-              {data.totalSupply}/4417
-            </div>
-            <div className="d-flex justify-content-center mt-5 ml-2">
-              <NftButton />
-              {/* <button
+            <div className="d-flex justify-content-around">
+              <div
+                className="fs-1 d-flex justify-content-end align-items-center  mt-5"
+                Style="color:#adefd1"
+              >
+                {data.totalSupply}/4417
+              </div>
+              <div className="d-flex justify-content-center mt-5 ml-2">
+                <NftButton />
+                {/* <button
                 class="btn btn-outline-light text-light"
                 type="button"
                 Style="width:48%;background-color:transparent;"
@@ -48,6 +51,7 @@ export default function Banner() {
                   </div>
                 </div>
               </button> */}
+              </div>
             </div>
           </div>
         </Fade>
