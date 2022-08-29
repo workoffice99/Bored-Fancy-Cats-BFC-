@@ -13,7 +13,10 @@ export default function Banner() {
   console.log(data, "data");
   return (
     <div className="container">
-      <div className="row">
+      <div
+        className="row flex-column-reverse flex-md-row
+ "
+      >
         <Fade left>
           <div className="col-sm-12 col-lg-7  text-light ">
             <div className="">
@@ -29,34 +32,21 @@ export default function Banner() {
                 ERC-721 tokens on the Polygon blockchain.
               </p>
             </div>
-            <div className="d-flex justify-content-around">
+            <div className="d-flex flex-column flex-md-row justify-content-around ">
               <div
-                className="fs-1 d-flex justify-content-end align-items-center  mt-5"
+                className="fs-1 d-flex justify-content-center justify-content-md-end align-items-center  mt-5"
                 Style="color:#adefd1"
               >
                 {data.totalSupply}/4417
               </div>
               <div className="d-flex justify-content-center mt-5 ml-2">
                 <NftButton />
-                {/* <button
-                class="btn btn-outline-light text-light"
-                type="button"
-                Style="width:48%;background-color:transparent;"
-              >
-                <div class="d-flex justify-content-center">
-                  <div class="mt-1">Play</div>
-
-                  <div className="mt-1 " Style="margin-left:10px;">
-                    <img src={Play} width="auto" height="auto" />
-                  </div>
-                </div>
-              </button> */}
               </div>
             </div>
           </div>
         </Fade>
         <Fade right>
-          <div className="col-12 col-md-5 d-flex justify-content-center  rounded">
+          <div className="col-12 col-md-5 d-flex justify-content-md-center mb-3 mb-md-0  rounded">
             <div>
               <img
                 className="banner-pic rounded"
