@@ -38,6 +38,10 @@ function NavMain() {
               {" "}
               <Button variant="primary" size="lg" className="btn-nav">
                 Join Discord
+                 <a
+            href="https://polygonscan.com/address/0x14F0f1191d4D2a7D7c7fB4780EeFA3F3A91BF93E"
+            className=""
+          >
               </Button>{" "}
             </Nav.Item>
           </Nav>
