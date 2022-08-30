@@ -38,7 +38,7 @@ function NavMain() {
               {" "}
               <Button variant="primary" size="lg" className="btn-nav">
                 Join Discord
-              </Button>{" https://discord.gg/aEeXz42H"}
+              </Button>{" "}
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
