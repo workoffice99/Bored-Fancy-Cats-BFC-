@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Logo from "./../../Assets/Logo.svg";
+import Logo from "./../../Assets/Logo-3.svg";
 import Button from "react-bootstrap/Button";
 import "./Nav.css";
 
@@ -29,15 +29,23 @@ function NavMain() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link class="s" href="#home">
-              Home
+            <Nav.Link class="s" href="#about">
+              About
             </Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#coomunity">Community</Nav.Link>
-            <Nav.Item href="#deets">
+            <Nav.Link href="#road">Road Map</Nav.Link>
+            <div className="mr-2">
+              <Nav.Link href="#faq">Faq</Nav.Link>
+            </div>
+            <Nav.Item>
               {" "}
-              <Button variant="primary" size="lg" className="btn-nav">
-                Primary button
+              <Button
+                href="https://discord.gg/aEeXz42H"
+                variant="primary"
+                size="lg"
+                className="btn-nav"
+                target="_blank"
+              >
+                Join Discord
               </Button>{" "}
             </Nav.Item>
           </Nav>

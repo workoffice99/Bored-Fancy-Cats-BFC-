@@ -1,0 +1,18 @@
+.ContactUs {
+  height: auto;
+  /* background-image: url(../../Assets/Rectangle\ 39.png); */
+  background: rgba(246, 246, 246, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* .circle {
+  background-color: #8ae4bc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  
+} */
