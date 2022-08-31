@@ -2,6 +2,8 @@ import React from "react";
 import Twitter from "./../../Assets/Twitter.png";
 import Discord from "./../../Assets/discord.png";
 import LinkedIn from "./../../Assets/LinkedIn.png";
+import Tiktok from "./../../Assets/TikTok.png";
+import FB from "./../../Assets/FB.png";
 import "./ContactUs.css";
 
 export default function ContactUs() {
@@ -23,20 +25,39 @@ export default function ContactUs() {
           </div>
           <div className="d-flex  justify-content-start mt-5 gap-5">
             <div className="circle d-flex justify-content-center align-items-center">
-              {" "}
-              <img src={Discord} width="24px" height="24px" />
+              <a href="https://discord.gg/aEeXz42H" target="_blank">
+                <img src={Discord} width="24px" height="24px" />
+              </a>
+            </div>
+            <div className="circle d-flex justify-content-center align-items-center">
+              <a href="https://twitter.com/boredfancycats" target="_blank">
+                <img src={Twitter} />
+              </a>
+            </div>
+            <div className="circle d-flex justify-content-center align-items-center">
+              <a
+                href=" https://www.instagram.com/boredfancycats/"
+                target="_blank"
+              >
+                <img src={LinkedIn} />
+              </a>
             </div>
             <div className="circle d-flex justify-content-center align-items-center">
               {" "}
-              <img src={Twitter} />
+              <a
+                href="https://www.tiktok.com/@boredfancycats?lang=en"
+                target="_blank"
+              >
+                <img src={Tiktok} />
+              </a>
             </div>
             <div className="circle d-flex justify-content-center align-items-center">
-              {" "}
-              <img src={LinkedIn} />
-            </div>
-            <div className="circle d-flex justify-content-center align-items-center">
-              {" "}
-              <img src={Twitter} />
+              <a
+                href="https://www.facebook.com/Bored-fancy-cats-106926228794697"
+                target="_blank"
+              >
+                <img src={FB} />
+              </a>
             </div>
           </div>
         </div>
