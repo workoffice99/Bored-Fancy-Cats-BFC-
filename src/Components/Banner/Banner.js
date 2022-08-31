@@ -52,7 +52,7 @@ export default function Banner() {
                 className="banner-pic rounded"
                 src={BannerPic}
                 height="auto"
-                width="469px"
+                width="100%"
                 border-radius="10px"
               />
             </div>

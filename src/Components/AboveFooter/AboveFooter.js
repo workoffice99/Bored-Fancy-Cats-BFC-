@@ -10,9 +10,9 @@ export default function AboveFooter() {
     <div className="container pb-3">
       <div className="row">
         <div class="d-flex justify-content-center">
-          <img src={Logo} />
+          <img src={Logo} height="200px" />
         </div>
-        <div className="text-center fs-7 text-white mt-4">
+        <div className="text-center fs-7 text-white mt-2">
           <p>
             Bored Fancy Cat's is a digital creatives platform that empowers to
             Blockchain. Our goal is to create a safe environment for creatives
