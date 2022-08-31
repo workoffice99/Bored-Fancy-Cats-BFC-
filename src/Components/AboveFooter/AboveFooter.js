@@ -10,7 +10,7 @@ export default function AboveFooter() {
     <div className="container pb-3">
       <div className="row">
         <div class="d-flex justify-content-center mr-3">
-          <img src={Logo} height="70px" />
+          <img src={Logo} height="auto" width="100%" />
         </div>
         <div className="text-center fs-7 text-white mt-2">
           <p>
