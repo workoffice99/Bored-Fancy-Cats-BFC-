@@ -18,27 +18,25 @@ export default function App() {
       <div>
         <Nav />
       </div>
-      <hr />
+
       <div class="mt-5">
         <Banner />
       </div>
-      <hr />
 
-      <hr />
-      <div class="mt-5 ">
+      <div id="about" class="mt-5 ">
         <AboutNft />
       </div>
-      <hr />
+
       <div class="mt-5 ">
         <Rarity />
       </div>
-      <div class="mt-5 ">
+      <div id="road" class="mt-5 ">
         <RoadMap />
       </div>
       <div class="mt-5 ">
         <Team />
       </div>
-      <div class="mt-5 ">
+      <div id="faq" class="mt-5 ">
         <Faq />
       </div>
       <div class="mt-5 ">

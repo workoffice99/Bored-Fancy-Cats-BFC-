@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./../../Assets/Logo.svg";
+import Logo from "./../../Assets/Logo-3.svg";
 import Twitter from "./../../Assets/Twitter.png";
 import Discord from "./../../Assets/discord.png";
 import LinkedIn from "./../../Assets/LinkedIn.png";
@@ -9,8 +9,8 @@ export default function AboveFooter() {
   return (
     <div className="container pb-3">
       <div className="row">
-        <div class="d-flex justify-content-center">
-          <img src={Logo} height="200px" />
+        <div class="d-flex justify-content-center mr-3">
+          <img src={Logo} height="70px" />
         </div>
         <div className="text-center fs-7 text-white mt-2">
           <p>
@@ -43,7 +43,7 @@ export default function AboveFooter() {
       <hr class="horizontal-line mt-3" />
       <div className="row  text-white">
         <div className="col-12 col-md-6 d-flex  justify-content-center justify-content-md-start ">
-          Copyright © 2022 Goofy Giraffes | All Rights Reserved
+          Copyright © 2022 Bored Fancy Cats| All Rights Reserved
         </div>
         <div class="col-12 col-md-6  d-flex  justify-content-center justify-content-md-end gap-3 mt-3 mt-md-0 mb-3 mb-md-0">
           <div className="">Privacy Policy</div>
